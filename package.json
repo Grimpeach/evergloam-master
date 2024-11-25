@@ -10,16 +10,6 @@
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "test": "mocha --opts tests/mocha.opts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EgorRepnikov/evergloam.git"
-  },
-  "author": "Egor Repnikov",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/EgorRepnikov/evergloam/issues"
-  },
-  "homepage": "https://github.com/EgorRepnikov/evergloam#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^7.0.0",
